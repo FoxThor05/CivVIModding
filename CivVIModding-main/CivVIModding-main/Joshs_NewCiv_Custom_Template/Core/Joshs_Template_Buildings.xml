@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_USB_CUSTOM" Kind="KIND_BUILDING"/>
+	</Types>
+	
+	<Buildings>
+		<Row BuildingType="BUILDING_USB_CUSTOM" Name="LOC_BUILDING_USB_CUSTOM_NAME" Description="LOC_BUILDING_USB_CUSTOM_DESCRIPTION" PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Cost="150" AdvisorType="ADVISOR_CONQUEST" Maintenance="3" TraitType="TRAIT_CIVILIZATION_BUILDING_USB_CUSTOM"/>
+	</Buildings>
+	
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_USB_CUSTOM" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+	</Building_YieldChanges>
+	
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_USB_CUSTOM" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="2"/>
+	</Building_GreatPersonPoints>
+
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>USB_MILITARY_ACADEMY_BARB_DAMAGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BARBARIAN_COMBAT</ModifierType>
+		</Row>
+	</Modifiers>
+	
+	
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>USB_MILITARY_ACADEMY_BARB_DAMAGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+	</ModifierArguments>
+
+
+
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_USB_CUSTOM</BuildingType>
+			<ModifierId>USB_MILITARY_ACADEMY_BARB_DAMAGE</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</GameInfo>

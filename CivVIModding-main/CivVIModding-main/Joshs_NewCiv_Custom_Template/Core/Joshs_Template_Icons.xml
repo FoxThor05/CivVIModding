@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<!--Leader Icons-->
+		
+		<Row Name="ICON_ATLAS_OSBORNE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_OSBORNE_32.dds"/>
+		<Row Name="ICON_ATLAS_OSBORNE" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_OSBORNE_45.dds"/>
+		<Row Name="ICON_ATLAS_OSBORNE" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_OSBORNE_50.dds"/>
+		<Row Name="ICON_ATLAS_OSBORNE" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_OSBORNE_55.dds"/>
+		<Row Name="ICON_ATLAS_OSBORNE" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_OSBORNE_64.dds"/>
+		<Row Name="ICON_ATLAS_OSBORNE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_OSBORNE_80.dds"/>
+		<Row Name="ICON_ATLAS_OSBORNE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_OSBORNE_256.dds"/>
+
+		<!--CIV Icons-->
+
+		<Row Name="ICON_ATLAS_EREBONIA" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_EREBONIA_32.dds"/>
+		<Row Name="ICON_ATLAS_EREBONIA" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_EREBONIA_45.dds"/>
+		<Row Name="ICON_ATLAS_EREBONIA" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_EREBONIA_50.dds"/>
+		<Row Name="ICON_ATLAS_EREBONIA" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_EREBONIA_55.dds"/>
+		<Row Name="ICON_ATLAS_EREBONIA" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_EREBONIA_64.dds"/>
+		<Row Name="ICON_ATLAS_EREBONIA" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_EREBONIA_80.dds"/>
+		<Row Name="ICON_ATLAS_EREBONIA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_EREBONIA_256.dds"/>
+
+
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<!--Leader Icons-->
+		<Row Name="ICON_LEADER_USB_OSBORNE" Atlas="ICON_ATLAS_OSBORNE" Index="0"/>
+
+		<!--Civilization Icons-->
+		<Row Name="ICON_CIVILIZATION_USB_EREBONIA" Atlas="ICON_ATLAS_EREBONIA" Index="0"/>
+
+
+		<!--Building Icons-->
+		<Row Name="ICON_BUILDING_USB_CUSTOM" Atlas="ICON_ATLAS_CIVICS" Index="29"/>
+
+	</IconDefinitions>
+</GameData>
